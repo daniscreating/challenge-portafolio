@@ -1,0 +1,27 @@
+:root{
+	--black: #141414;
+	/* Usar para links */
+	--gray: #5a6065;
+	/* Usar para parrafos */
+	--lightgray: #69737c;
+	/* Usar para el background de botones */
+	--buttonbg: #edf2f5;
+	--blue: #8FA9BF;
+	--cascadia-code: 'Cascadia Code', sans-serif;                           
+}
+
+*{
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+
+
+body{
+	font-family: 'Public Sans', sans-serif;
+	background-color: #fff;
+}
+
+textarea{
+	font-family: Arial, sans-serif;
+}

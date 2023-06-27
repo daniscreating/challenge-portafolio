@@ -1,0 +1,9 @@
+.header__titulo{
+	font-weight: 600;
+	font-size: 2.188rem;
+}
+
+.header__titulo a{
+	text-decoration: none;
+
+}

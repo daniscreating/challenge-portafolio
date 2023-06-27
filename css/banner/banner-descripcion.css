@@ -1,0 +1,16 @@
+.banner__descripcion__container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	max-width: 20rem;
+	height: 40px;
+	background-color: #F8FBFE;
+	border-radius: 8px;
+}
+
+.banner__descripcion{
+	font-size: 1.25rem;
+	color: var(--gray);
+	text-align: center;
+}

@@ -1,0 +1,29 @@
+.contact__input{
+	width: 100%;
+	height: 50px;
+	background: none;
+	line-height: 28px;
+	padding: 0 1rem;
+	padding-left: 2rem;
+	border: 2px solid transparent;
+	border-radius: 8px;
+	outline: none;
+	background-color: var(--buttonbg);
+	color: var(--black);
+	transition: .3s ease;
+}
+
+
+.contact__input:focus, .contact__input:hover {
+	outline: none;
+	border-color: var(--blue);
+	background-color: #fff;
+	box-shadow: 0 0 0 4px rgba(76, 174, 234, 0.1);
+}
+
+.contact__input:not(:placeholder-shown) + .contact__label, 
+.contact__input:focus + .contact__label{
+    transform: translateY(-12px) scale(.7);
+    transform-origin: top left;
+    color: var(--lightgray);
+}

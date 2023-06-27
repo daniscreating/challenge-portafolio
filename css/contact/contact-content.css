@@ -1,0 +1,14 @@
+.contact__content{
+	position: relative;
+	display: flex;
+	line-height: 28px;
+	align-items: center;
+	position: relative;
+	width: 100%;
+}
+
+@media screen and (min-width:768px) {
+	.contact__content{
+		max-width: 500px;
+	}
+}

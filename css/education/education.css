@@ -1,0 +1,22 @@
+.education{
+	background-image: url("../../img/doodle3.png");
+	background-repeat: no-repeat;
+	background-size: 5rem;
+	background-position: top 1rem left 13rem;
+}
+
+
+
+@media screen and (min-width:490px) {
+	.education{
+		background-size: 7rem;
+		background-position: top 2rem left 9rem;
+	}
+}
+
+@media screen and (min-width:600px) {
+	.education{
+		background-size: 8rem;
+		background-position: top 0rem left 24rem;
+	}
+}

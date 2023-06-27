@@ -1,0 +1,12 @@
+.footer__text{
+	font-size: 1rem;
+	color: var(--gray);
+	font-weight: 600;
+	line-height: 1.5;
+}
+
+@media screen and (min-width: 768px){
+	.footer__text{
+		font-size: 1.25rem;
+	}
+}

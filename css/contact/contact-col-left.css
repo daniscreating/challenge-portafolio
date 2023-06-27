@@ -1,0 +1,5 @@
+@media screen and (min-width:768px) {
+	.contact__col__left{
+		width: 500px;
+	}
+}

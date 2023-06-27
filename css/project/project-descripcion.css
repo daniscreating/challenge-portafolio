@@ -1,0 +1,17 @@
+.project__descripcion{
+	max-width: 300px;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    color: var(--lightgray);
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    letter-spacing: .3px;
+    flex-grow: 1;
+}
+
+@media screen and (min-width:1200px) {
+    .project__descripcion{
+        max-width: 500px;
+    }
+}

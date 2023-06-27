@@ -1,0 +1,11 @@
+@media screen and (min-width:768px){
+
+	.left .project__content{
+		padding-left: 2.5rem;
+	}
+
+	.right .project__content{
+		padding-right: 2.5rem;
+	}
+}
+

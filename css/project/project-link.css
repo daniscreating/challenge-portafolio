@@ -1,0 +1,10 @@
+.project__link{
+	padding: 0.75rem 1.875rem;
+	border-radius: 2.5rem;
+	background-color: var(--buttonbg);
+	color: var(--lightgray);
+	font-size: 1.063rem;
+	font-weight: 700;
+	cursor: pointer;
+	text-decoration: none;
+}

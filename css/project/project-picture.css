@@ -1,0 +1,37 @@
+@media screen and (max-width:478px)  {
+	.project__picture{
+		width: 80vw;
+	}
+}
+
+@media screen and (min-width:479px)  {
+	.project__picture{
+		width: 91vw;
+	}
+}
+
+
+@media screen and (min-width:703px)  {
+	.project__picture{
+		width: 82vw;
+	}
+}
+
+@media screen and (min-width:768px)  {
+	.project__picture{
+		width: 450px;
+	}
+}
+
+@media screen and (min-width:991px)  {
+	.project__picture{
+		width: 53vw;
+	}
+}
+
+@media screen and (min-width:1279px)  {
+	.project__picture{
+		width: 50vw;
+	}
+} 
+

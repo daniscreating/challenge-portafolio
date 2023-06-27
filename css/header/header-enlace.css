@@ -1,0 +1,17 @@
+.header__enlace{
+	margin-right: 1.25rem;
+	line-height: 1.2em;
+}
+
+.header__enlace a{
+	font-weight: 600;
+	color: var(--gray);
+	text-decoration: none;
+
+}
+
+@media screen and (max-width:375px){
+	.header__enlace{
+		margin-top: 0.2rem;
+	}
+}

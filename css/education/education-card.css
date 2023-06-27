@@ -1,0 +1,107 @@
+.education__card {
+	background-color: var(--buttonbg);
+	width: 300px;
+	margin: 0 auto;
+
+
+	height: 130px;
+
+	border-radius: 10px;
+	margin-bottom: 1.2rem;
+	margin-top: 1.4rem;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+@media screen and (max-width:348px){
+	.education__card{
+		width: 210px;
+		height: 220px;
+	}
+}
+
+@media screen and (min-width:768px){
+	.education__card{
+		width: 210px;
+		flex-direction: row;
+		height: 200px;
+	}
+}
+
+.education__header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 1rem;
+	line-height: 1.3;
+	padding: 2rem;
+}
+
+@media screen and (max-width: 348px) {
+	.education__header{
+		flex-direction: column;
+	}
+}
+
+@media screen and (min-width:768px){
+	.education__header{
+		flex-direction: column;
+	}
+}
+
+.education__image {
+	height: 4rem;
+	width: 4rem;
+	border-radius: 9999px;
+	object-fit: cover;
+	display: flex;
+	justify-content: center;
+}
+
+.education__picture{
+	width: 4rem;
+	border-radius: 9999px;
+}
+
+.education__course{
+	display: flex;
+	grid-gap: 0.125rem;
+	gap: 0.125rem;
+	color: black;
+	font-weight: 600;
+}
+
+@media screen and (min-width:768px){
+	.education__course{
+		text-align: center;
+	}
+}
+
+
+.small__text{
+	display: flex;
+	flex-direction: column;
+}
+
+@media screen and (min-width:768px){
+	.small__text{
+		text-align: center;
+	}
+}
+
+.education__school{
+	color: var(--lightgray);
+}
+
+.education__year{
+	font-size: 0.8rem;
+	color: var(--gray);
+}
+
+.education__message{
+	margin-top: 0.5rem;
+	line-height: 1.2;
+}

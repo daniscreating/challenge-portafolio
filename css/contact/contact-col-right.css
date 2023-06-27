@@ -1,0 +1,11 @@
+@media screen and (min-width: 768px){
+	.contact__col__right{
+		margin-left: 4rem;
+		height: 300px;
+		background-image: url("../../img/doodle4.png");
+		width: 100vh;
+		max-width: 31.25rem;
+		background-repeat: no-repeat;
+		background-size:contain;
+	}
+}
